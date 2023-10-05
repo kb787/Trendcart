@@ -3,11 +3,11 @@ import { Link } from "react-router-dom";
 
 const Asus = () => {
   return (
-    <div className="Asus">
+    <div className="Realme">
       <br/>
       <div>
         <ul className="asusSet">
-          <li className="asusList">
+          <li className="realmeList">
             <div className="asusCard">
               <img
                 src="https://rukminim1.flixcart.com/image/416/416/l3rmzrk0/computer/z/2/c/-original-imagetjyhhtrtkdg.jpeg?q=70"
@@ -27,7 +27,7 @@ const Asus = () => {
               </div>
             </div>
           </li>
-          <li className="asusList">
+          <li className="realmeList">
             <div className="asusCard">
               <img
                 src="https://rukminim1.flixcart.com/image/416/416/l3rmzrk0/computer/s/z/r/-original-imagetgzg4pgszmt.jpeg?q=70"
@@ -48,7 +48,7 @@ const Asus = () => {
               </div>
             </div>
           </li>
-          <li className="asusList">
+          <li className="realmeList">
             <div className="asusCard">
               <img
                 src="https://rukminim1.flixcart.com/image/416/416/xif0q/computer/m/q/o/-original-imag7wjdg4dvcdya.jpeg?q=70"
@@ -67,7 +67,7 @@ const Asus = () => {
               </div>
             </div>
           </li>
-          <li className="asusList">
+          <li className="realmeList">
             <div className="asusCard">
               <img
                 src="https://rukminim1.flixcart.com/image/416/416/kp2y2kw0/computer/y/0/c/na-thin-and-light-laptop-asus-original-imag3ebnzawky4kn.jpeg?q=70"
@@ -91,7 +91,7 @@ const Asus = () => {
         <br/>
         <br/>
         <ul className="asusSet">
-          <li className="asusList">
+          <li className="realmeList">
             <div className="asusCard">
               <img
                 src="https://rukminim1.flixcart.com/image/416/416/l13whow0/computer/o/s/h/-original-imagcqvpmys2cmg3.jpeg?q=70"
@@ -111,7 +111,7 @@ const Asus = () => {
               </div>
             </div>
           </li>
-          <li className="asusList">
+          <li className="realmeList">
             <div className="asusCard">
               <img
                 src="https://rukminim1.flixcart.com/image/416/416/xif0q/computer/p/z/c/-original-imaghr25cncfgpza.jpeg?q=70"
@@ -132,7 +132,7 @@ const Asus = () => {
               </div>
             </div>
           </li>
-          <li className="asusList">
+          <li className="realmeList">
             <div className="asusCard">
               <img
                 src="https://rukminim1.flixcart.com/image/416/416/l2urv680/computer/h/a/y/-original-image333r3phuvgr.jpeg?q=70"
@@ -152,7 +152,7 @@ const Asus = () => {
               </div>
             </div>
           </li>
-          <li className="asusList">
+          <li className="realmeList">
             <div className="asusCard">
               <img
                 src="https://rukminim1.flixcart.com/image/416/416/xif0q/computer/x/l/v/-original-imaghrfyjeff4bzv.jpeg?q=70"
@@ -177,7 +177,7 @@ const Asus = () => {
         <br/>
         <br/>
         <ul className="asusSet">
-          <li className="asusList">
+          <li className="realmeList">
             <div className="asusCard">
               <img
                 src="https://rukminim1.flixcart.com/image/416/416/kkyc9zk0/computer/j/z/b/na-2-in-1-laptop-asus-original-imagy6zh6zq2npfx.jpeg?q=70"
@@ -197,7 +197,7 @@ const Asus = () => {
               </div>
             </div>
           </li>
-          <li className="asusList">
+          <li className="realmeList">
             <div className="asusCard">
               <img
                 src="https://rukminim1.flixcart.com/image/416/416/xif0q/computer/v/z/h/-original-imaghxgk8pzmhqja.jpeg?q=70"
@@ -218,7 +218,7 @@ const Asus = () => {
               </div>
             </div>
           </li>
-          <li className="asusList">
+          <li className="realmeList">
             <div className="asusCard">
               <img
                 src="https://rukminim1.flixcart.com/image/416/416/kklhbbk0/computer/y/g/2/m415da-laptop-asus-original-imafzwrqjdgm9j6m.jpeg?q=70"
@@ -238,7 +238,7 @@ const Asus = () => {
               </div>
             </div>
           </li>
-          <li className="asusList">
+          <li className="realmeList">
             <div className="asusCard">
               <img
                 src="https://rukminim1.flixcart.com/image/416/416/xif0q/computer/q/c/0/ga503rm-hq057ws-gaming-laptop-asus-original-imagghnawsf7mvec.jpeg?q=70"

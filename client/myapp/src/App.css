@@ -88,7 +88,7 @@
 }
 
 .header {
-  background-color:green;
+  background-color:navy;
   margin-top:-2vw ;
   color:white ;
   height:20vw ;
@@ -135,6 +135,8 @@
    width:15vw ;
    height:22vw ;
    border-radius:0.70rem ;
+   border:solid ;
+   border-color:darkgray ;
 }
 
 .contentCard:hover 
@@ -153,7 +155,7 @@
 }
 
 .contentButton {
-  width: 8vw;
+  width: 10vw;
   font-size: 1.5vw;
   border-color: red;
   background-color: red;
@@ -162,16 +164,11 @@
   border-radius: 0.65rem;
 }
 
-.contentButton:hover 
-{
-   transform:scale(1.5) ;
-   transform:scale(1.5) ;
-}
 
 .cHeading {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   font-style: italic;
-  color: yellow;
+  color: white;
   font-size: 3vw;
   text-align: center;
 }
@@ -188,7 +185,7 @@
 }
 .Content {
   margin-top: 0vw;
-  background-color: black ;
+  background-color: mediumslateblue;
   color:yellow ;
   height:95vw ;
 }
@@ -323,12 +320,14 @@
 }
 
 .printerList {
-  background-color: black;
-  color:yellow ;
+  background-color: navy;
+  color:white ;
   font-size: 0.95vw;
   width: 25vw;
   height: 25vw;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  border:solid ;
+  border-color: grey;
 }
 
 .printerButton {
@@ -346,7 +345,7 @@
 }
 
 .Printer {
-  background-color: green;
+  background-color: mediumslateblue;
   margin-top:-1.2vw ;
   height:95vw ;
   margin-right:-1vw ;
@@ -367,12 +366,14 @@
 }
 
 .earphoneList {
-  background-color: black;
-  color:yellow ;
+  background-color: navy;
+  color:white ;
   font-size: 0.95vw;
   width: 30vw;
   height: 25vw;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  border:solid ;
+  border-color: darkgray;
 }
 
 .earphoneList:hover{
@@ -396,7 +397,7 @@
 }
 
 .Earphone {
-  background-color: green;
+  background-color: mediumslateblue;
   margin-top:-1.2vw ;
   height:95vw ;
   margin-right:-1vw ;
@@ -410,12 +411,14 @@
 }
 
 .monitorList {
-  background-color: black;
-  color:yellow ;
+  background-color:navy;
+  color:white ;
   font-size: 0.95vw;
   width: 30vw;
   height: 25vw;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  border:solid ;
+  border-color:darkgray
 }
 
 .monitorList:hover{
@@ -439,7 +442,7 @@
 }
 
 .Monitor {
-  background-color: green;
+  background-color: mediumslateblue;
   margin-top:-1.2vw ;
   height:95vw ;
   margin-right:-1vw ;
@@ -475,7 +478,7 @@
 }
 
 .Projector {
-  background-color: green;
+  background-color: mediumslateblue;
   margin-top:-1.2vw ;
   height:95vw ;
   margin-right:-1vw ;
@@ -483,8 +486,10 @@
 }
 
 .projectorList {
-  background-color: black;
-  color:yellow ;
+  background-color: navy;
+  color:white ;
+  border:solid ;
+  border-color:darkgray ;
   font-size: 0.95vw;
   width: 30vw;
   height: 25vw;
@@ -504,12 +509,14 @@
 }
 
 .realmeList {
-  background-color: black;
-  color:yellow ;
+  background-color: navy;
+  color:white;
   font-size: 0.95vw;
   width: 30vw;
   height: 25vw;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  border:solid ;
+  border-color:darkgray
 }
 
 .realmeList:hover{
@@ -533,7 +540,7 @@
 }
 
 .Realme {
-  background-color: green;
+  background-color: mediumslateblue;
   margin-top:-1.2vw ;
   height:95vw ;
   margin-right:-1vw ;
@@ -928,5 +935,10 @@
 {
    transform:scale(1.5) ;
    transform:scale(1.5) ;
+}
+
+.lenovoContent {
+
+  color:white ;
 }
 

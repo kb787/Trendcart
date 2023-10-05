@@ -2,11 +2,11 @@
 import { Link } from "react-router-dom";
 const AppleMac = () => {
   return (
-    <div className="AppleMac">
+    <div className="Realme">
       <br/>
       <div>
         <ul className="appleMacSet">
-          <li className="appleMacList">
+          <li className="realmeList">
             <div className="appleMacCard">
               <img
                 src="https://rukminim1.flixcart.com/image/416/416/kp5sya80/screen-guard/tempered-glass/o/v/n/apple-macbook-air-m1-13-3-inch-lightwings-original-imag3gh5xftgbpg3.jpeg?q=70"
@@ -25,7 +25,7 @@ const AppleMac = () => {
               </div>
             </div>
           </li>
-          <li className="appleMacList">
+          <li className="realmeList">
             <div className="appleMacCard">
               <img
                 src="https://rukminim1.flixcart.com/image/416/416/l4hcx3k0/computer/r/6/b/macbook-pro-thin-and-light-laptop-apple-original-imagfdeu9rmugapt.jpeg?q=70"
@@ -44,7 +44,7 @@ const AppleMac = () => {
               </div>
             </div>
           </li>
-          <li className="appleMacList">
+          <li className="realmeList">
             <div className="appleMacCard">
               <img
                 src="https://rukminim1.flixcart.com/image/416/416/kuyf8nk0/computer/3/n/s/mk183hn-a-laptop-apple-original-imag7yzkbgbwvwq3.jpeg?q=70"
@@ -63,7 +63,7 @@ const AppleMac = () => {
               </div>
             </div>
           </li>
-          <li className="appleMacList">
+          <li className="realmeList">
             <div className="appleMacCard">
               <img
                 src="https://rukminim1.flixcart.com/image/416/416/kuyf8nk0/computer/3/n/s/mk183hn-a-laptop-apple-original-imag7yzkbgbwvwq3.jpeg?q=70"
@@ -86,7 +86,7 @@ const AppleMac = () => {
         <br/>
         <br/>
         <ul className="appleMacSet">
-          <li className="appleMacList">
+          <li className="realmeList">
             <div className="appleMacCard">
               <img
                 src="https://rukminim1.flixcart.com/image/312/312/jyq5oy80/computer/t/y/2/apple-na-thin-and-light-laptop-original-imafgwev6abfznds.jpeg?q=70"
@@ -105,7 +105,7 @@ const AppleMac = () => {
               </div>
             </div>
           </li>
-          <li className="appleMacList">
+          <li className="realmeList">
             <div className="appleMacCard">
               <img
                 src="https://rukminim1.flixcart.com/image/416/416/kuyf8nk0/computer/g/z/q/mk1e3hn-a-laptop-apple-original-imag7yzmv57cvg3f.jpeg?q=70"
@@ -124,7 +124,7 @@ const AppleMac = () => {
               </div>
             </div>
           </li>
-          <li className="appleMacList">
+          <li className="realmeList">
             <div className="appleMacCard">
               <img
                 src="https://rukminim1.flixcart.com/image/416/416/kuyf8nk0/computer/g/z/q/mk1e3hn-a-laptop-apple-original-imag7yzmv57cvg3f.jpeg?q=70"
@@ -143,7 +143,7 @@ const AppleMac = () => {
               </div>
             </div>
           </li>
-          <li className="appleMacList">
+          <li className="realmeList">
             <div className="appleMacCard">
               <img
                 src="https://rukminim1.flixcart.com/image/416/416/kuyf8nk0/computer/c/8/u/mkgp3hn-a-thin-and-light-laptop-apple-original-imag7yznc5d2rsuh.jpeg?q=70"
@@ -166,7 +166,7 @@ const AppleMac = () => {
         <br/>
         <br/>
         <ul className="appleMacSet">
-          <li className="appleMacList">
+          <li className="realmeList">
             <div className="appleMacCard">
               <img
                 src="https://rukminim1.flixcart.com/image/416/416/xif0q/computer/m/b/n/-original-imagfdf4xnbyyxpa.jpeg?q=70"
@@ -185,7 +185,7 @@ const AppleMac = () => {
               </div>
             </div>
           </li>
-          <li className="appleMacList">
+          <li className="realmeList">
             <div className="appleMacCard">
               <img
                 src="https://rukminim1.flixcart.com/image/416/416/khdqnbk0/computer/e/6/n/apple-original-imafxfyq4agsgysn.jpeg?q=70"
@@ -204,7 +204,7 @@ const AppleMac = () => {
               </div>
             </div>
           </li>
-          <li className="appleMacList">
+          <li className="realmeList">
             <div className="appleMacCard">
               <img
                 src="https://rukminim1.flixcart.com/image/416/416/xif0q/computer/2/v/v/-original-imagfdeqter4sj2j.jpeg?q=70"
@@ -223,7 +223,7 @@ const AppleMac = () => {
               </div>
             </div>
           </li>
-          <li className="appleMacList">
+          <li className="realmeList">
             <div className="appleMacCard">
               <img
                 src="https://rukminim1.flixcart.com/image/416/416/kuyf8nk0/computer/g/z/q/mk1e3hn-a-laptop-apple-original-imag7yzmv57cvg3f.jpeg?q=70"

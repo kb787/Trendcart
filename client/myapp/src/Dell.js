@@ -3,11 +3,11 @@ import { Link } from "react-router-dom";
 
 const Dell = () => {
   return (
-    <div className="Dell">
+    <div className="Realme">
       <br/>
       <div>
         <ul className="dellSet">
-          <li className="dellList">
+          <li className="realmeList">
             <div className="dellCard">
               <img
                 src="https://rukminim1.flixcart.com/image/416/416/l58iaa80/computer/q/s/w/inspiron-3511-laptop-dell-original-imagfycrbnpu2nbh.jpeg?q=70"
@@ -27,7 +27,7 @@ const Dell = () => {
               </div>
             </div>
           </li>
-          <li className="dellList">
+          <li className="realmeList">
             <div className="dellCard">
               <img
                 src="https://rukminim1.flixcart.com/image/416/416/xif0q/computer/x/o/u/-original-imaghkk994ybh4fh.jpeg?q=70"
@@ -47,7 +47,7 @@ const Dell = () => {
               </div>
             </div>
           </li>
-          <li className="dellList">
+          <li className="realmeList">
             <div className="dellCard">
               <img
                 src="https://rukminim1.flixcart.com/image/416/416/xif0q/computer/y/9/l/-original-imaghzahumgmsmj5.jpeg?q=70"
@@ -67,7 +67,7 @@ const Dell = () => {
               </div>
             </div>
           </li>
-          <li className="dellList">
+          <li className="realmeList">
             <div className="dellCard">
               <img
                 src="https://rukminim1.flixcart.com/image/416/416/xif0q/computer/o/u/x/inspiron-3525-thin-and-light-laptop-dell-original-imagg42smhwrtf3g.jpeg?q=70"
@@ -91,7 +91,7 @@ const Dell = () => {
         <br/>
         <br/>
         <ul className="dellSet">
-          <li className="dellList">
+          <li className="realmeList">
             <div className="dellCard">
               <img
                 src="https://rukminim1.flixcart.com/image/416/416/xif0q/computer/n/o/s/-original-imaghzah9mjvukjz.jpeg?q=70"
@@ -111,7 +111,7 @@ const Dell = () => {
               </div>
             </div>
           </li>
-          <li className="dellList">
+          <li className="realmeList">
             <div className="dellCard">
               <img
                 src="https://rukminim1.flixcart.com/image/416/416/l45xea80/computer/m/q/7/vostro-3425-thin-and-light-laptop-dell-original-imagf4mth22ydgqs.jpeg?q=70"
@@ -131,7 +131,7 @@ const Dell = () => {
               </div>
             </div>
           </li>
-          <li className="dellList">
+          <li className="realmeList">
             <div className="dellCard">
               <img
                 src="https://rukminim1.flixcart.com/image/416/416/xif0q/computer/j/k/m/vostro-5625-thin-and-light-laptop-dell-original-imagkz88uc9ekuxa.jpeg?q=70"
@@ -151,7 +151,7 @@ const Dell = () => {
               </div>
             </div>
           </li>
-          <li className="dellList">
+          <li className="realmeList">
             <div className="dellCard">
               <img
                 src="https://rukminim1.flixcart.com/image/416/416/xif0q/computer/3/w/u/-original-imaghzahcwt9and9.jpeg?q=70"
@@ -175,7 +175,7 @@ const Dell = () => {
         <br/>
         <br/>
         <ul className="dellSet">
-          <li className="dellList">
+          <li className="realmeList">
             <div className="dellCard">
               <img
                 src="https://rukminim1.flixcart.com/image/416/416/krdtlzk0/computer/l/k/r/na-laptop-dell-original-imag57f9psmfjcxs.jpeg?q=70"
@@ -195,7 +195,7 @@ const Dell = () => {
               </div>
             </div>
           </li>
-          <li className="dellList">
+          <li className="realmeList">
             <div className="dellCard">
               <img
                 src="https://rukminim1.flixcart.com/image/416/416/l0zm64w0/computer/e/g/8/g15-5515-gaming-laptop-dell-original-imagcnty69nhzy58.jpeg?q=70"
@@ -215,7 +215,7 @@ const Dell = () => {
               </div>
             </div>
           </li>
-          <li className="dellList">
+          <li className="realmeList">
             <div className="dellCard">
               <img
                 src="https://rukminim1.flixcart.com/image/416/416/l44hyfk0/computer/o/d/w/-original-imagf35eyyeezqpk.jpeg?q=70"
@@ -234,7 +234,7 @@ const Dell = () => {
               </div>
             </div>
           </li>
-          <li className="dellList">
+          <li className="realmeList">
             <div className="dellCard">
               <img
                 src="https://rukminim1.flixcart.com/image/416/416/l1mh7rk0/computer/q/w/0/inspiron-7425-notebook-dell-original-imagd5hbw6vhe4f2.jpeg?q=70"

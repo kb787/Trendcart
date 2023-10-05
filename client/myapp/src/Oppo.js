@@ -3,11 +3,11 @@ import { Link } from "react-router-dom";
 
 const Oppo = () => {
   return (
-    <div className="Oppo">
+    <div className="Realme">
       <br/>
       <div>
         <ul className="oppoSet">
-          <li className="oppoList">
+          <li className="realmeList">
             <div className="oppoCard">
               <img
                 src="https://rukminim1.flixcart.com/image/416/416/l2jcccw0/mobile/h/x/3/-original-imagduwqakhhkrse.jpeg?q=70"
@@ -25,7 +25,7 @@ const Oppo = () => {
               </div>
             </div>
           </li>
-          <li className="oppoList">
+          <li className="realmeList">
             <div className="oppoCard">
               <img
                 src="https://rukminim1.flixcart.com/image/416/416/l2jcccw0/mobile/h/x/3/-original-imagduwqakhhkrse.jpeg?q=70"
@@ -43,7 +43,7 @@ const Oppo = () => {
               </div>
             </div>
           </li>
-          <li className="oppoList">
+          <li className="realmeList">
             <div className="oppoCard">
               <img
                 src="https://rukminim1.flixcart.com/image/416/416/ku1k4280/mobile/j/x/v/f19s-cph2223-oppo-original-imag78zafhg3w69x.jpeg?q=70"
@@ -61,7 +61,7 @@ const Oppo = () => {
               </div>
             </div>
           </li>
-          <li className="oppoList">
+          <li className="realmeList">
             <div className="oppoCard">
               <img
                 src="https://rukminim1.flixcart.com/image/416/416/kn4xhu80/mobile/r/5/5/f19-cph2219-oppo-original-imagfvj5usebqhh4.jpeg?q=70"
@@ -83,7 +83,7 @@ const Oppo = () => {
         <br/>
         <br/>
         <ul className="oppoSet">
-          <li className="oppoList">
+          <li className="realmeList">
             <div className="oppoCard">
               <img
                 src="https://rukminim1.flixcart.com/image/416/416/kn4xhu80/mobile/d/f/c/f19-cph2219-oppo-original-imagfvj5cshwgwhp.jpeg?q=70"
@@ -101,7 +101,7 @@ const Oppo = () => {
               </div>
             </div>
           </li>
-          <li className="oppoList">
+          <li className="realmeList">
             <div className="oppoCard">
               <img
                 src="https://rukminim1.flixcart.com/image/416/416/xif0q/mobile/v/1/n/f21spro-cph2461-oppo-original-imagg5ac57bxfpxx.jpeg?q=70"
@@ -119,7 +119,7 @@ const Oppo = () => {
               </div>
             </div>
           </li>
-          <li className="oppoList">
+          <li className="realmeList">
             <div className="oppoCard">
               <img
                 src="https://rukminim1.flixcart.com/image/416/416/xif0q/mobile/l/6/9/-original-imaggkzydg7zbrys.jpeg?q=70"
@@ -137,7 +137,7 @@ const Oppo = () => {
               </div>
             </div>
           </li>
-          <li className="oppoList">
+          <li className="realmeList">
             <div className="oppoCard">
               <img
                 src="https://rukminim1.flixcart.com/image/416/416/kzhbfrk0/mobile/0/r/j/-original-imagbgxffuvx56mm.jpeg?q=70"
@@ -160,7 +160,7 @@ const Oppo = () => {
         <br/>
         <br/>
         <ul className="oppoSet">
-          <li className="oppoList">
+          <li className="realmeList">
             <div className="oppoCard">
               <img
                 src="https://rukminim1.flixcart.com/image/416/416/kv6zvrk0/mobile/n/a/s/a16-cph2269-oppo-original-imag85qsuwthwthy.jpeg?q=70"
@@ -178,7 +178,7 @@ const Oppo = () => {
               </div>
             </div>
           </li>
-          <li className="oppoList">
+          <li className="realmeList">
             <div className="oppoCard">
               <img
                 src="https://rukminim1.flixcart.com/image/416/416/xif0q/mobile/i/g/y/-original-imaggm3zczfkgxea.jpeg?q=70"
@@ -196,7 +196,7 @@ const Oppo = () => {
               </div>
             </div>
           </li>
-          <li className="oppoList">
+          <li className="realmeList">
             <div className="oppoCard">
               <img
                 src="https://rukminim1.flixcart.com/image/416/416/l12h1u80/mobile/o/n/o/-original-imagcq2qq6mjczsd.jpeg?q=70"
@@ -214,7 +214,7 @@ const Oppo = () => {
               </div>
             </div>
           </li>
-          <li className="oppoList">
+          <li className="realmeList">
             <div className="oppoCard">
               <img
                 src="https://rukminim1.flixcart.com/image/416/416/km9ht3k0/mobile/f/h/e/a15s-cph2179-oppo-original-imagf7gzmxkv9caz.jpeg?q=70"

@@ -3,11 +3,11 @@ import { Link } from "react-router-dom";
 
 const ApplePhone = () => {
   return (
-    <div className="Poco">
+    <div className="Realme">
       <br/>
       <div>
         <ul className="pocoSet">
-          <li className="pocoList">
+          <li className="realmeList">
             <div className="pocoCard">
               <img
                 src="https://m.media-amazon.com/images/I/31VjlrbE3bL._SY445_SX342_QL70_FMwebp_.jpg"
@@ -30,7 +30,7 @@ for "iphon 14"
               </div>
             </div>
           </li>
-          <li className="pocoList">
+          <li className="realmeList">
             <div className="pocoCard">
               <img
                 src="https://m.media-amazon.com/images/I/61VuVU94RnL._SX679_.jpg"
@@ -53,7 +53,7 @@ for "apple"
               </div>
             </div>
           </li>
-          <li className="pocoList">
+          <li className="realmeList">
             <div className="pocoCard">
               <img
                 src="https://m.media-amazon.com/images/I/61cwywLZR-L._SX679_.jpg"
@@ -77,7 +77,7 @@ Deal
               </div>
             </div>
           </li>
-          <li className="pocoList">
+          <li className="realmeList">
             <div className="pocoCard">
               <img
                 src="https://m.media-amazon.com/images/I/31VjlrbE3bL._SY445_SX342_QL70_FMwebp_.jpg"
@@ -104,7 +104,7 @@ for "iphon 14"
         <br/>
         <br/>
         <ul className="pocoSet">
-          <li className="pocoList">
+          <li className="realmeList">
             <div className="pocoCard">
               <img
                 src="https://m.media-amazon.com/images/I/61bK6PMOC3L._SX679_.jpg"
@@ -127,7 +127,7 @@ for "iphon 14"
               </div>
             </div>
           </li>
-          <li className="pocoList">
+          <li className="realmeList">
             <div className="pocoCard">
               <img
                 src="https://m.media-amazon.com/images/I/61VuVU94RnL._SX679_.jpg"
@@ -150,7 +150,7 @@ for "apple"
               </div>
             </div>
           </li>
-          <li className="pocoList">
+          <li className="realmeList">
             <div className="pocoCard">
               <img
                 src="https://m.media-amazon.com/images/I/618Bb+QzCmL._SX679_.jpg"
@@ -173,7 +173,7 @@ for "apple 14"
               </div>
             </div>
           </li>
-          <li className="pocoList">
+          <li className="realmeList">
             <div className="pocoCard">
               <img
                 src="https://m.media-amazon.com/images/I/71QE00iB9IL._SX679_.jpg"
@@ -200,7 +200,7 @@ for "i phone 11"
         <br/>
         <br/>
         <ul className="pocoSet">
-          <li className="pocoList">
+          <li className="realmeList">
             <div className="pocoCard">
               <img
                 src="https://m.media-amazon.com/images/I/610pghkO81L._SX679_.jpg"
@@ -223,7 +223,7 @@ for "iphone 14 pro max 256gb"
               </div>
             </div>
           </li>
-          <li className="pocoList">
+          <li className="realmeList">
             <div className="pocoCard">
               <img
                 src="https://m.media-amazon.com/images/I/61-r9zOKBCL._SX679_.jpg"
@@ -243,7 +243,7 @@ Brand: Apple
               </div>
             </div>
           </li>
-          <li className="pocoList">
+          <li className="realmeList">
             <div className="pocoCard">
               <img
                 src="https://m.media-amazon.com/images/I/61YSNhAb00L._SX679_.jpg"
@@ -267,7 +267,7 @@ Deal
               </div>
             </div>
           </li>
-          <li className="pocoList">
+          <li className="realmeList">
             <div className="pocoCard">
               <img
                 src="https://m.media-amazon.com/images/I/31J4zSX9nDL._SY445_SX342_QL70_FMwebp_.jpg"

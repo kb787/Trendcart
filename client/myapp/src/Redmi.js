@@ -3,11 +3,11 @@ import { Link } from "react-router-dom";
 
 const Redmi = () => {
   return (
-    <div className="Redmi">
+    <div className="Realme">
       <br/>
       <div>
         <ul className="redmiSet">
-          <li className="redmiList">
+          <li className="realmeList">
             <div className="redmiCard">
               <img
                 src="https://rukminim1.flixcart.com/image/416/416/xif0q/mobile/m/q/e/-original-imagk4nz6xgtexam.jpeg?q=70"
@@ -25,7 +25,7 @@ const Redmi = () => {
               </div>
             </div>
           </li>
-          <li className="redmiList">
+          <li className="realmeList">
             <div className="redmiCard">
               <img
                 src="https://rukminim1.flixcart.com/image/416/416/xif0q/mobile/g/p/x/-original-imagk4nz54s7a7rf.jpeg?q=70"
@@ -43,7 +43,7 @@ const Redmi = () => {
               </div>
             </div>
           </li>
-          <li className="redmiList">
+          <li className="realmeList">
             <div className="redmiCard">
               <img
                 src="https://rukminim1.flixcart.com/image/416/416/ku04o7k0/mobile/p/8/u/9i-sport-mzb0a5iin-redmi-original-imag785qegs5ghyy.jpeg?q=70"
@@ -61,7 +61,7 @@ const Redmi = () => {
               </div>
             </div>
           </li>
-          <li className="redmiList">
+          <li className="realmeList">
             <div className="redmiCard">
               <img
                 src="https://rukminim1.flixcart.com/image/416/416/xif0q/mobile/r/7/s/-original-imaghh2fmnzyzn2g.jpeg?q=70"
@@ -83,7 +83,7 @@ const Redmi = () => {
         <br/>
         <br/>
         <ul className="redmiSet">
-          <li className="redmiList">
+          <li className="realmeList">
             <div className="redmiCard">
               <img
                 src="https://rukminim1.flixcart.com/image/416/416/xif0q/mobile/m/j/o/-original-imaghkvue4yjecju.jpeg?q=70"
@@ -101,7 +101,7 @@ const Redmi = () => {
               </div>
             </div>
           </li>
-          <li className="redmiList">
+          <li className="realmeList">
             <div className="redmiCard">
               <img
                 src="https://rukminim1.flixcart.com/image/416/416/xif0q/mobile/b/r/f/-original-imaghkvuhzwge3za.jpeg?q=70"
@@ -119,7 +119,7 @@ const Redmi = () => {
               </div>
             </div>
           </li>
-          <li className="redmiList">
+          <li className="realmeList">
             <div className="redmiCard">
               <img
                 src="https://rukminim1.flixcart.com/image/312/312/xif0q/mobile/z/1/q/-original-imaghsd2eqryyjry.jpeg?q=70"
@@ -137,7 +137,7 @@ const Redmi = () => {
               </div>
             </div>
           </li>
-          <li className="redmiList">
+          <li className="realmeList">
             <div className="redmiCard">
               <img
                 src="https://rukminim1.flixcart.com/image/416/416/kyeqjrk0/mobile/y/u/t/-original-imagan9qzdf2hbgy.jpeg?q=70"
@@ -159,7 +159,7 @@ const Redmi = () => {
         <br/>
         <br/>
         <ul className="redmiSet">
-          <li className="redmiList">
+          <li className="realmeList">
             <div className="redmiCard">
               <img
                 src="https://rukminim1.flixcart.com/image/416/416/xif0q/mobile/e/5/j/-original-imaggz2sq4b8hv4q.jpeg?q=70"
@@ -177,7 +177,7 @@ const Redmi = () => {
               </div>
             </div>
           </li>
-          <li className="redmiList">
+          <li className="realmeList">
             <div className="redmiCard">
               <img
                 src="https://rukminim1.flixcart.com/image/416/416/kyeqjrk0/mobile/y/u/t/-original-imagan9qzdf2hbgy.jpeg?q=70"
@@ -195,7 +195,7 @@ const Redmi = () => {
               </div>
             </div>
           </li>
-          <li className="redmiList">
+          <li className="realmeList">
             <div className="redmiCard">
               <img
                 src="https://rukminim1.flixcart.com/image/416/416/xif0q/mobile/9/j/r/-original-imagjyhyaf7tdxnc.jpeg?q=70"
@@ -213,7 +213,7 @@ const Redmi = () => {
               </div>
             </div>
           </li>
-          <li className="redmiList">
+          <li className="realmeList">
             <div className="redmiCard">
               <img
                 src="https://rukminim1.flixcart.com/image/416/416/xif0q/mobile/k/1/a/-original-imag7f5he4efhmtd.jpeg?q=70"

@@ -3,11 +3,11 @@ import { Link } from "react-router-dom";
 
 const HP = () => {
   return (
-    <div className="HP">
+    <div className="Realme">
       <br/>
       <div>
         <ul className="hpSet">
-          <li className="hpList">
+          <li className="realmeList">
             <div className="hpCard">
               <img
                 src="https://rukminim1.flixcart.com/image/416/416/kbqu4cw0/computer/q/x/r/hp-original-imaftyzachgrav8f.jpeg?q=70"
@@ -27,7 +27,7 @@ const HP = () => {
               </div>
             </div>
           </li>
-          <li className="hpList">
+          <li className="realmeList">
             <div className="hpCard">
               <img
                 src="https://rukminim1.flixcart.com/image/416/416/l5h2xe80/computer/h/i/p/14s-dy5005tu-thin-and-light-laptop-hp-original-imagg4rc7n75zqkp.jpeg?q=70"
@@ -47,7 +47,7 @@ const HP = () => {
               </div>
             </div>
           </li>
-          <li className="hpList">
+          <li className="realmeList">
             <div className="hpCard">
               <img
                 src="https://rukminim1.flixcart.com/image/416/416/xif0q/computer/i/b/p/-original-imaghkprhrcgrfey.jpeg?q=70"
@@ -67,7 +67,7 @@ const HP = () => {
               </div>
             </div>
           </li>
-          <li className="hpList">
+          <li className="realmeList">
             <div className="hpCard">
               <img
                 src="https://rukminim1.flixcart.com/image/416/416/xif0q/computer/5/6/i/-original-imaggshd5zgfe8ev.jpeg?q=70"
@@ -91,7 +91,7 @@ const HP = () => {
         <br/>
         <br/>
         <ul className="hpSet">
-          <li className="hpList">
+          <li className="realmeList">
             <div className="hpCard">
               <img
                 src="https://rukminim1.flixcart.com/image/416/416/xif0q/computer/y/6/4/-original-imagkqwzbryf6sp7.jpeg?q=70"
@@ -111,7 +111,7 @@ const HP = () => {
               </div>
             </div>
           </li>
-          <li className="hpList">
+          <li className="realmeList">
             <div className="hpCard">
               <img
                 src="https://rukminim1.flixcart.com/image/416/416/xif0q/computer/5/6/i/-original-imaggshd5zgfe8ev.jpeg?q=70"
@@ -131,7 +131,7 @@ const HP = () => {
               </div>
             </div>
           </li>
-          <li className="hpList">
+          <li className="realmeList">
             <div className="hpCard">
               <img
                 src="https://rukminim1.flixcart.com/image/416/416/xif0q/computer/k/b/8/15s-fr4000tu-thin-and-light-laptop-hp-original-imaghrcwmt7v5svk.jpeg?q=70"
@@ -151,7 +151,7 @@ const HP = () => {
               </div>
             </div>
           </li>
-          <li className="hpList">
+          <li className="realmeList">
             <div className="hpCard">
               <img
                 src="https://rukminim1.flixcart.com/image/416/416/l2hwwi80/computer/o/q/u/eg2035tu-thin-and-light-laptop-hp-original-imagdtzgzfs6gjfy.jpeg?q=70"
@@ -175,7 +175,7 @@ const HP = () => {
         <br/>
         <br/>
         <ul className="hpSet">
-          <li className="hpList">
+          <li className="realmeList">
             <div className="hpCard">
               <img
                 src="https://rukminim1.flixcart.com/image/416/416/xif0q/computer/5/6/i/-original-imaggshd5zgfe8ev.jpeg?q=70"
@@ -195,7 +195,7 @@ const HP = () => {
               </div>
             </div>
           </li>
-          <li className="hpList">
+          <li className="realmeList">
             <div className="hpCard">
               <img
                 src="https://rukminim1.flixcart.com/image/416/416/l5fnhjk0/computer/c/p/c/14s-fy1005au-thin-and-light-laptop-hp-original-imagg4dgtu77mzye.jpeg?q=70"
@@ -215,7 +215,7 @@ const HP = () => {
               </div>
             </div>
           </li>
-          <li className="hpList">
+          <li className="realmeList">
             <div className="hpCard">
               <img
                 src="https://rukminim1.flixcart.com/image/416/416/l5h2xe80/computer/h/i/p/14s-dy5005tu-thin-and-light-laptop-hp-original-imagg4rc7n75zqkp.jpeg?q=70"
@@ -235,7 +235,7 @@ const HP = () => {
               </div>
             </div>
           </li>
-          <li className="hpList">
+          <li className="realmeList">
             <div className="hpCard">
               <img
                 src="https://rukminim1.flixcart.com/image/416/416/l2ghgnk0/computer/t/g/j/14-ec1008au-thin-and-light-laptop-hp-original-imagdsx9uqnpahja.jpeg?q=70"

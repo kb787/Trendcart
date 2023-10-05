@@ -3,11 +3,11 @@ import { Link } from "react-router-dom";
 
 const Lenovo = () => {
   return (
-    <div className="Lenovo">
+    <div className="Realme">
       <br/>
       <div>
         <ul className="lenovoSet">
-          <li className="lenovoList">
+          <li className="realmeList">
             <div className="lenovoCard">
               <img
                 src="https://rukminim1.flixcart.com/image/416/416/kruyw7k0/computer/f/i/u/na-thin-and-light-laptop-lenovo-original-imag5jy6fsm2yx4q.jpeg?q=70"
@@ -27,7 +27,7 @@ const Lenovo = () => {
               </div>
             </div>
           </li>
-          <li className="lenovoList">
+          <li className="realmeList">
             <div className="lenovoCard">
               <img
                 src="https://rukminim1.flixcart.com/image/416/416/xif0q/computer/2/3/5/-original-imagg5hhjunrv4e4.jpeg?q=70"
@@ -47,7 +47,7 @@ const Lenovo = () => {
               </div>
             </div>
           </li>
-          <li className="lenovoList">
+          <li className="realmeList">
             <div className="lenovoCard">
               <img
                 src="https://rukminim1.flixcart.com/image/416/416/keaaavk0/computer/x/m/y/lenovo-na-laptop-original-imafuzt8r5jqppfn.jpeg?q=70"
@@ -67,7 +67,7 @@ const Lenovo = () => {
               </div>
             </div>
           </li>
-          <li className="lenovoList">
+          <li className="realmeList">
             <div className="lenovoCard">
               <img
                 src="https://rukminim1.flixcart.com/image/416/416/l3929ow0/computer/d/n/c/82c3a008ih-laptop-lenovo-original-imageexr8yzmydfd.jpeg?q=70"
@@ -90,7 +90,7 @@ const Lenovo = () => {
         <br/>
         <br/>
         <ul className="lenovoSet">
-          <li className="lenovoList">
+          <li className="realmeList">
             <div className="lenovoCard">
               <img
                 src="https://rukminim1.flixcart.com/image/416/416/xif0q/computer/u/h/h/15ach6-gaming-laptop-lenovo-original-imaggmxtjewnjpeq.jpeg?q=70"
@@ -111,7 +111,7 @@ const Lenovo = () => {
               </div>
             </div>
           </li>
-          <li className="lenovoList">
+          <li className="realmeList">
             <div className="lenovoCard">
               <img
                 src="https://rukminim1.flixcart.com/image/416/416/xif0q/computer/m/p/l/15ial7-thin-and-light-laptop-lenovo-original-imaggujwd4yz54xw.jpeg?q=70"
@@ -131,7 +131,7 @@ const Lenovo = () => {
               </div>
             </div>
           </li>
-          <li className="lenovoList">
+          <li className="realmeList">
             <div className="lenovoCard">
               <img
                 src="https://rukminim1.flixcart.com/image/416/416/xif0q/computer/l/d/c/gaming-3-gaming-laptop-lenovo-original-imaghtkrg8rw6jtp.jpeg?q=70"
@@ -151,7 +151,7 @@ const Lenovo = () => {
               </div>
             </div>
           </li>
-          <li className="lenovoList">
+          <li className="realmeList">
             <div className="lenovoCard">
               <img
                 src="https://rukminim1.flixcart.com/image/416/416/ks99aq80/computer/y/z/7/na-gaming-laptop-lenovo-original-imag5ve3jvhgvsnx.jpeg?q=70"
@@ -176,7 +176,7 @@ const Lenovo = () => {
         <br/>
         <br/>
         <ul className="lenovoSet">
-          <li className="lenovoList">
+          <li className="realmeList">
             <div className="lenovoCard">
               <img
                 src="https://rukminim1.flixcart.com/image/416/416/l4vnbm80/computer/i/f/f/15ada7-thin-and-light-laptop-lenovo-original-imagfzzxmhfgzysy.jpeg?q=70"
@@ -196,7 +196,7 @@ const Lenovo = () => {
               </div>
             </div>
           </li>
-          <li className="lenovoList">
+          <li className="realmeList">
             <div className="lenovoCard">
               <img
                 src="https://rukminim1.flixcart.com/image/416/416/kruyw7k0/computer/f/i/u/na-thin-and-light-laptop-lenovo-original-imag5jy6fsm2yx4q.jpeg?q=70"
@@ -216,7 +216,7 @@ const Lenovo = () => {
               </div>
             </div>
           </li>
-          <li className="lenovoList">
+          <li className="realmeList">
             <div className="lenovoCard">
               <img
                 src="https://rukminim1.flixcart.com/image/416/416/xif0q/computer/v/e/s/15igl05-thin-and-light-laptop-lenovo-original-imaghvfkfwpmnpcf.jpeg?q=70"
@@ -236,7 +236,7 @@ const Lenovo = () => {
               </div>
             </div>
           </li>
-          <li className="lenovoList">
+          <li className="realmeList">
             <div className="lenovoCard">
               <img
                 src="https://rukminim1.flixcart.com/image/416/416/xif0q/computer/a/c/3/-original-imagg56h9gat842s.jpeg?q=70"
