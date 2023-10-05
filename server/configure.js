@@ -6,7 +6,7 @@ const Connect =  async () =>
     try 
     {
 
-        await mongoose.connect("mongodb+srv://KaranBhanushali:Kb19092003%40@cluster0.fpqcnoe.mongodb.net/ecommerceDatabase" ,
+        await mongoose.connect("mongodb+srv" ,
         {
             useNewUrlParser: true,
             useUnifiedTopology: true,
