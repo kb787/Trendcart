@@ -13,7 +13,7 @@ import Header from './Header' ;
 import HomeAppliances from './HomeAppliances' ;
 import HP from './HP' ;
 import Lenovo from './Lenovo' ;
-import Login from './Login' ;
+import Login from './components/Authentication/Login' ;
 import Monitor from './Monitor' ;
 import Oppo from './Oppo' ;
 import Poco from './Poco' ;
@@ -23,7 +23,7 @@ import Projector from './Projector' ;
 import Realme from './Realme' ;
 import Redmi from './Redmi' ;
 import Homepage from './Homepage' ;
-import Register from './Register' ;
+import Register from './components/Authentication/Register';
 import Profile from './Profile' ;
 import Shows from './Shows' ;
 import {BrowserRouter,Route,Routes} from 'react-router-dom' ;
@@ -34,7 +34,8 @@ function App() {
         <Routes>
             <Route path="/" element = {<Homepage/>}/>
             <Route  path = "/Login" element = {<Login/>}/>
-            <Route  path = "/Realme" element = {<Realme/>}/>
+            <Route  path = "/Register" element = {<Register/>}/>
+     {/*       <Route  path = "/Realme" element = {<Realme/>}/>
             <Route  path = "/Projector" element = {<Projector/>}/>
             <Route  path = "/Printer" element = {<Printer/>}/>
             <Route  path = "/Powerbank" element = {<Powerbank/>}/>
@@ -54,9 +55,8 @@ function App() {
             <Route  path = "/AppleMac" element = {<AppleMac/>}/>
             <Route  path = "/ApplePhone" element = {<ApplePhone/>}/>
             <Route  path = "/Redmi" element = {<Redmi/>}/>
-            <Route  path = "/Register" element = {<Register/>}/>
             <Route path = "/Profile" element = {<Profile/>}/>
-            <Route path = "/Shows" element = {<Shows/>}/>
+  <Route path = "/Shows" element = {<Shows/>}/> */}
         </Routes>
     </BrowserRouter>
     </div>

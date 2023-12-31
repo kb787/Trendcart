@@ -88,7 +88,7 @@ Deal
                 <p className="pocoContent">
                 Apple iPhone 14 (128 GB) - Blue
 Brand: Apple
-4.5 4.5 out of 5 stars    1,311 ratings | 178 answered questions
+4.5 4.5 out of 5 stars , 1,311 ratings | 178 answered questions
 Amazon's
 Choice
 for "iphon 14"

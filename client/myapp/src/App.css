@@ -853,12 +853,7 @@
   margin-left:-1vw ;
 }
 
-.Register 
-{
-   background-color:purple ;
-   margin-right:25vw ;
-   margin-left:25vw ; 
-}
+
 
 .Profile 
 {
@@ -868,46 +863,70 @@
    margin-top:-1vw ;
 }
 
-.registerHeading 
-{
-    font-size:3vw ;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
-    font-style: oblique;
-    color:white ;
+.mainContainer {
+  background-color: whitesmoke;
+  width:60%;
+  height:fit-content ;
+  margin-top:5vw ;
+  justify-content:center;
+  margin-left:20vw ;
+  margin-right:20vw ;
+  border-radius:0.60rem ;
+  border:solid ;
+  border-color:black;
 }
 
-.formInput 
-{
-   width:30vw ;
-   font-size:2vw ;
-   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+.formHeading{
+  font-size:2vw ;
+  font-family:Verdana ;
+  text-align: left;
+  padding-left:12vw ;
 }
 
-.registerButton 
-{
-   width:12vw ;
-   font-size:2vw ;
-   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-   background-color: red;
-   color:white ;
-   border-color:red ;
-   border-radius:0.65rem ;
-   margin-bottom:2vw ;
+.formSubHeading{
+  font-size:1.20vw ;
+  font-family:Verdana ;
+  text-align: left;
+  padding-left:12vw ;
+  color:darkgray
 }
 
-.registerButton:hover 
-{
-   transform:scale(1.5) ;
-   transform:scale(1.5) ;
+.formInputs{
+  width:60%;
+  border-radius:0.65rem ;
+  height:3vw ;
+  margin-top:1vw ;
+  font-size:1.30vw ;
 }
 
-.loginLinking 
-{
-   font-size:3vw ;
-   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-   color:white ;
-   text-decoration: none;
+.loginButton {
+  margin-top:2vw ;
+  width:61% ;
+  font-size:1.30vw ;
+  border-radius:0.40rem ;
+  margin-bottom:2vw ;
+  background-color: blue;
+  color:white ;
+  height:4vw ;
 }
+
+.pageLinking{
+  font-size:1.15vw ;
+  font-family:Verdana, Geneva, Tahoma, sans-serif ;
+  text-decoration: none;
+  color:black ;
+}
+
+.pageLinking:hover {
+  color:red ;
+}
+
+
+
+
+
+
+
 
 .Shows 
 {

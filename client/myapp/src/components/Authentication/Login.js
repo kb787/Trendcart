@@ -38,29 +38,18 @@ const Login = () =>
     }    
 
     return (
-       <div className = "Register">
-    <form classname="registerForm" onSubmit={handlePostLogin}>
-    <div>
-    <h3 className = "registerHeading">Verify your credentials</h3>    
-    </div>
-    <br/>
-    <div>
-      <input type="email" className="formInput" id="exampleInputEmail1" placeholder = "Enter your email" value = {userEmail} onChange = {(e) => setUserEmail(e.target.value) } />
-    </div>
-    <br/>
-    <div>
-      <input type="password" className="formInput" id="exampleInputPassword1" placeholder = "Enter your password" value = {userPassword} onChange = {(e) => setUserPassword(e.target.value)} />
-    </div>
-    <br/>
-    <button type="submit" className="registerButton">
-    Login
-    </button>
-    <p>
-    <Link to ="/Register" className="loginLinking">Create new account - Register !!!</Link></p>
-    <br/>
-  </form>
-       </div> 
+      <div className = "mainContainer">
+      <p className = "formHeading">Sign In</p>
+      <p className = "formSubHeading">Verify your credentials here</p>
+      <input className = "formInputs" type = 'email' value = {userEmail} placeholder = "Enter your email address" onChange = {(e) => setUserEmail(e.target.value)} />
+      <br/>
+      <input className = "formInputs" type = 'password' value = {userPassword} placeholder = "Enter your password" onChange = {(e) => setUserPassword(e.target.value)} />
+      <br/>         
+      <button className = "loginButton" onClick={handlePostLogin}>Login</button>
+      <p><Link to = "/Register" className = "pageLinking">Not having an account ? SignUp Here</Link></p>   
+</div> 
     )
+     
 }
 
 export default Login ;

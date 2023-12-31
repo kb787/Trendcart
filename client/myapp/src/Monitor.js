@@ -74,7 +74,7 @@ const Monitor = () => {
                 <p className="monitorContent">
                   SAMSUNG 24 inch Full HD LED Backlit IPS Panel with 3-Sided
                   Borderless Display, Game & Free Sync Mode, Eye Saver Mode
-                  Response Time: 5 ms, 75 Hz Refresh Rate) 4.46,089 Ratings &
+                  Response Time: 5 ms, 75 Hz Refresh Rate 4.46,089 Ratings &
                   762 Reviews Special price ₹9,399
                 </p>
                 <Link to="/Register">
@@ -118,7 +118,7 @@ const Monitor = () => {
                 <p className="monitorContent">
                   MarQ by Flipkart 22 inch Full HD LED Backlit VA Panel with 2 X
                   3W Inbuilt Speakers Monitor Response Time: 5 ms, 75 Hz Refresh
-                  Rate)#JustHere 4.32,264 Ratings & 396 Reviews Special price
+                  Rate #JustHere 4.32,264 Ratings & 396 Reviews Special price
                   ₹6,499
                 </p>
                 <Link to="/Register">

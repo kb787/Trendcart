@@ -42,29 +42,18 @@ const Register = () =>
     }    
 
     return (
-    <div className = "Register">
-    <form classname="registerForm" onSubmit={handlePostRegister}>
-    <div>
-    <h3 className = "registerHeading">Enter your registration details</h3>    
-    <input type="text" className="formInput" id="exampleInputEmail1"  placeholder="Enter your name" value={userName} onChange={(e) => setUserName(e.target.value)} />
-    </div>
-    <br/>
-    <div>
-      <input type="email" className="formInput" id="exampleInputEmail1" placeholder = "Enter your email" value = {userEmail} onChange = {(e) => setUserEmail(e.target.value) } />
-    </div>
-    <br/>
-    <div>
-      <input type="password" className="formInput" id="exampleInputPassword1" placeholder = "Enter your password" value = {userPassword} onChange = {(e) => setUserPassword(e.target.value)} />
-    </div>
-    <br/>
-    <button type="submit" className="registerButton">
-      Register
-    </button>
-    <p>
-    <Link to ="/Login" className="loginLinking">Already registered login !!!</Link></p>
-    <br/>
-  </form>
-       </div> 
+      <div className = "mainContainer">
+      <p className = "formHeading">Sign Up</p>
+      <p className = "formSubHeading">Enter your details here</p>
+      <input className = "formInputs" type = 'text' value = {userName} placeholder = "Enter your full name" onChange = {(e) => setUserName(e.target.value)} />
+      <br/>
+      <input className = "formInputs" type = 'email' value = {userEmail} placeholder = "Enter your email address" onChange = {(e) => setUserEmail(e.target.value)} />
+      <br/>
+      <input className = "formInputs" type = 'password' value = {userPassword} placeholder = "Enter your password" onChange = {(e) => setUserPassword(e.target.value)} />
+      <br/>         
+      <button className = "loginButton" onClick={handlePostRegister}>Register</button>
+      <p><Link to = "/Login" className = "pageLinking">Already having an account ? SignIn Here</Link></p>   
+</div> 
     )
 }
 
