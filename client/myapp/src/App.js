@@ -27,6 +27,7 @@ import Register from './components/Authentication/Register';
 import Profile from './Profile' ;
 import Shows from './Shows' ;
 import {BrowserRouter,Route,Routes} from 'react-router-dom' ;
+import LaptopMainContainer from './components/Products/Laptops/LaptopMainContainer';
 function App() {
   return (
     <div className="App">
@@ -35,28 +36,7 @@ function App() {
             <Route path="/" element = {<Homepage/>}/>
             <Route  path = "/Login" element = {<Login/>}/>
             <Route  path = "/Register" element = {<Register/>}/>
-     {/*       <Route  path = "/Realme" element = {<Realme/>}/>
-            <Route  path = "/Projector" element = {<Projector/>}/>
-            <Route  path = "/Printer" element = {<Printer/>}/>
-            <Route  path = "/Powerbank" element = {<Powerbank/>}/>
-            <Route  path = "/Poco" element = {<Poco/>}/>
-            <Route  path = "/Oppo" element = {<Oppo/>}/>
-            <Route  path = "/Monitor" element = {<Monitor/>}/>
-            <Route  path = "/Lenovo" element = {<Lenovo/>}/>
-            <Route  path = "/HP" element = {<HP/>}/>
-            <Route  path = "/HomeAppliances" element = {<HomeAppliances/>}/>
-            <Route  path = "/Groceries" element = {<Groceries/>}/>
-            <Route  path = "/ElectronicsComp" element = {<ElectronicsComp/>}/>
-            <Route  path = "/Earphone" element = {<Earphone/>}/>
-            <Route  path = "/Dell" element = {<Dell/>}/>
-            <Route  path = "/Content" element = {<Content/>}/>
-            <Route  path = "/Clothing" element = {<Clothing/>}/>
-            <Route  path = "/Asus" element = {<Asus/>}/>
-            <Route  path = "/AppleMac" element = {<AppleMac/>}/>
-            <Route  path = "/ApplePhone" element = {<ApplePhone/>}/>
-            <Route  path = "/Redmi" element = {<Redmi/>}/>
-            <Route path = "/Profile" element = {<Profile/>}/>
-  <Route path = "/Shows" element = {<Shows/>}/> */}
+            <Route  path = "/LaptopItemsPage" element = {<LaptopMainContainer/>}/>
         </Routes>
     </BrowserRouter>
     </div>
