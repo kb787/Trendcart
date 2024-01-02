@@ -1,6 +1,13 @@
 import Header from "../../Home/Header";
-
+import {useCart} from "../../Cart/CartCreation" ;
+import { useNavigate } from "react-router-dom";
 const Monitor = () => {
+  const navigation = useNavigate() ;
+  const {addToCart} = useCart() ;
+  const handleAddCart = (item) => {
+    addToCart(item) ;
+    navigation("/CartDisplay") ;
+ }
     const data = [
         {
             _id: 60 ,
@@ -56,7 +63,7 @@ const Monitor = () => {
                     </div>
                     <div>
                     {/*  <Link to={item.buttonNavigation}> */}
-                           <button className="contentButtonProduct">Add to Cart</button>
+                           <button className="contentButtonProduct" onClick = {() => handleAddCart(item)}>Add to Cart</button>
                     {/*  </Link> */}
                     </div>
                       </li>        

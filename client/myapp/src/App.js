@@ -18,6 +18,7 @@ import Monitor from './components/ProductCompany/ElectronicsCompany/Monitor';
 import Projector from './components/ProductCompany/ElectronicsCompany/Projector';
 import Earphone from './components/ProductCompany/ElectronicsCompany/Earphone';
 import ApplePhone from './components/ProductCompany/MobileCompany/ApplePhone';
+import CartDisplay from './components/Cart/CartDisplay';
 import { CartProvider } from './components/Cart/CartCreation';
 
 function App() {
@@ -26,7 +27,7 @@ function App() {
     <CartProvider>  
     <BrowserRouter>
         <Routes>
-            <Route path="/" element = {<Homepage/>}/>
+            <Route path="/Homepage" element = {<Homepage/>}/>
             <Route  path = "/Login" element = {<Login/>}/>
             <Route  path = "/Register" element = {<Register/>}/>
             <Route  path = "/Lenovo" element = {<Lenovo/>}/>
@@ -42,6 +43,7 @@ function App() {
             <Route  path = "/Projector" element = {<Projector/>}/>
             <Route  path = "/Earphone" element = {<Earphone/>}/>
             <Route  path = "/ApplePhone" element = {<ApplePhone/>}/>
+            <Route  path = "/CartDisplay" element = {<CartDisplay/>}/>
         </Routes>
     </BrowserRouter>
     </CartProvider>

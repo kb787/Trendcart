@@ -1,6 +1,14 @@
 import Header from "../../Home/Header";
+import {useCart} from "../../Cart/CartCreation" 
+import { useNavigate } from "react-router-dom";
 
 const ApplePhone = () => {
+  const navigate = useNavigate() ;
+  const {addToCart} = useCart() ;
+  const handleAddCart = (item) => {
+    addToCart(item) ;
+    navigate("/CartDisplay") ;
+ }
     const data = [
         {
             _id: 60 ,
@@ -55,7 +63,7 @@ const ApplePhone = () => {
                     </div>
                     <div>
                     {/*  <Link to={item.buttonNavigation}> */}
-                           <button className="contentButtonProduct">Add to Cart</button>
+                           <button className="contentButtonProduct" onClick = {() => handleAddCart(item)}>Add to Cart</button>
                     {/*  </Link> */}
                     </div>
                       </li>        

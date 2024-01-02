@@ -1,6 +1,6 @@
 import React, { createContext, useContext, useReducer } from 'react';
 
-const CartContext = createContext();
+const CartCreation = createContext();
 
 const cartReducer = (state, action) => {
   switch (action.type) {
@@ -19,14 +19,14 @@ const CartProvider = ({ children }) => {
   };
 
   return (
-    <CartContext.Provider value={{ cart, addToCart }}>
+    <CartCreation.Provider value={{ cart, addToCart }}>
       {children}
-    </CartContext.Provider>
+    </CartCreation.Provider>
   );
 };
 
 const useCart = () => {
-  const context = useContext(CartContext);
+  const context = useContext(CartCreation);
   if (!context) {
     throw new Error('useCart must be used within a CartProvider');
   }

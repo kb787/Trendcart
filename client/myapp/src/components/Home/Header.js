@@ -57,9 +57,11 @@ const Header = () => {
               </Link>
             </li>
             <li>
-              <div className = "navCollection">
+              <div className = "navCollection">  
               <FontAwesomeIcon icon = {faCartShopping} className = "iconStyling" />
-              <p className = "iconPara">Cart</p> 
+              <Link className="link" to="/CartDisplay">
+              <p className = "iconPara">Cart</p>
+              </Link> 
               </div> 
             </li>
           </ul>
