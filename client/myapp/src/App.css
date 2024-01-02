@@ -1,0 +1,223 @@
+.App {
+    width:100%;
+} 
+
+.navg{
+    display:flex ;
+    gap:2vw ;
+    list-style-type:none ;
+    justify-content:left ;
+    align-items:center ;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    padding-top:1.35vw ;
+    font-size:1.15vw ;
+    background-color: black;
+    color:white ;
+}
+
+.cardTit{
+    font-size:1.15vw ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+}
+
+.bLogo{
+    font-size:1.30vw ;
+    color:yellow;
+}
+
+.header {
+    margin-top:-2vw ;
+    width:100% ;
+}
+
+.link {
+   color:white ;
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+   text-decoration: none;
+}
+
+.iconStyling{
+    font-size:1.50vw ;
+    padding-top:1.10vw ;
+}
+
+.searchForm{
+    border-radius:0.30rem ;
+    font-size:1.30vw ;
+}
+
+.navCollection{
+    display:flex ;
+    gap:0.50vw ;
+}
+
+.headerImg {
+    width:10vw ;
+    height:5vw ;
+}
+
+.itemCat{
+    display:flex ;
+    list-style-type:none ;
+    gap:2vw ;
+    background-color:navy;
+    color:white ;
+    margin-top:-1.20vw ;
+    justify-content:center ;
+    align-items:center ;
+}
+
+.Content {
+    background-color: whitesmoke;
+    margin-top:-1.20vw ;
+    padding-bottom:2vw ;
+    padding-right:1vw ;
+}
+
+.Lenovo {
+    background-color: whitesmoke;
+    margin-top:-1.20vw ;
+    padding-bottom:2vw ;
+    padding-right:1vw ;
+    width:100%;   
+}
+
+.contentCard{
+    width:15vw ;
+    height:20vw ;
+    background-color: white;
+    border-radius:0.50rem ;
+    border:solid ;
+    border-color:black;
+}
+
+.cHeading{
+    font-size:2vw ;
+    font-family:Verdana ;
+    justify-content: center;
+    text-align:center ;
+    padding-top:2vw ;
+}
+
+.contentCards{
+   display:flex ;
+   gap:2vw ;
+   list-style-type: none; 
+   justify-content: center;
+}
+
+.contentImg {
+    width:8vw ;
+    height:8vw ;
+    padding-top:2vw ;
+    padding-left:3vw ;
+    padding-right:2vw ;
+}
+
+.contentMobImg {
+    width:5vw ;
+    height:8vw ; 
+    padding-top:2vw ;
+    padding-left:5vw ;
+    padding-right:2vw ;
+}
+
+.contentButton {
+    justify-content:center;
+    text-align:center;
+    background-color: red;
+    color:white ;
+    margin-left:3vw ;
+    font-size:1 ;
+    width:8vw ;
+    height:2vw ;
+    border-radius:0.60rem ;
+}
+
+.contentButtonProduct {
+    justify-content:center;
+    text-align:center;
+    background-color: red;
+    color:white ;
+    margin-bottom:3vw ;
+    margin-left:12vw ;
+    margin-right:12vw ;
+    font-size:1vw ;
+    width:8vw ;
+    height:2vw ;
+    border-radius:0.60rem ;
+    
+}
+.contentTit {
+    justify-content: center;
+    text-align: center;
+    font-size:1.30vw ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.contentCardsProduct{
+    display:flex ;
+    flex-wrap: wrap;
+    gap:5vw ;
+    list-style-type: none;
+    padding-top:2vw ;
+}
+
+.contentImgProduct {
+    width:20vw ;
+    height:20vw ;
+    border-radius:0.75rem ;
+}
+
+.contentImgProductMobile {
+    width:15vw ;
+    height:20vw ;
+    border-radius:0.75rem ;
+    padding-top:2vw ;
+    padding-left:10vw ;
+    padding-right:10vw ;
+}
+
+.contentTitProductMobile {
+    font-size:1.25vw ;
+    padding-left:2vw ;
+    padding-right:2vw ;
+}
+
+.contentTitProduct{
+    padding-left:2vw ;
+    padding-right:2vw;
+}
+.contentCardProduct{
+    width:35vw ;
+    height:50vw ;
+    background-color: white;
+    border-radius:0.75rem ;
+    border:solid ;
+    border-color:black;
+    justify-content:center;
+    margin-left:4vw ;
+}
+
+.contentCardProductMobile{
+    width:35vw ;
+    height:45vw ;
+    background-color: white;
+    border-radius:0.75rem ;
+    border:solid ;
+    border-color:black;
+    justify-content:center;
+    margin-left:4vw ;
+}
+
+.contentImgProduct{
+    justify-content:center ;
+    margin-top:2vw ;
+    margin-left:4vw ;
+    margin-right:4vw ;
+    padding:2vw ;
+}
+
+.Homepage {
+    width:100% ;
+}

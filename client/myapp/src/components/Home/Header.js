@@ -1,5 +1,9 @@
 
 import { Link } from "react-router-dom";
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome" ;
+import {faCartShopping,faLocationDot,faUser,faBagShopping} from "@fortawesome/free-solid-svg-icons" ;
+import {} from "@fortawesome/fontawesome-svg-core" ;
+
 
 const Header = () => {
   return (
@@ -12,6 +16,12 @@ const Header = () => {
               <Link className="link" to="/">
                 Home
               </Link>
+            </li>
+            <li>
+              <div className = "navCollection">
+              <FontAwesomeIcon icon = {faLocationDot} className = "iconStyling" />
+              <p className = "iconPara">Location</p> 
+              </div> 
             </li>
             <li>
               <div className="headerForm">
@@ -30,71 +40,53 @@ const Header = () => {
               </div>
             </li>
             <li>
+              <div className = "navCollection">
+              <FontAwesomeIcon icon = {faUser} className = "iconStyling" />
+              <p className = "iconPara">My Account</p> 
+              </div> 
+            </li>
+            <li>
+              <div className = "navCollection">
+              <FontAwesomeIcon icon = {faBagShopping} className = "iconStyling" />
+              <p className = "iconPara">Orders and Returns</p> 
+              </div> 
+            </li>
+            <li>
             <Link className="link" to="/Shows">
                 Watch Shows
               </Link>
             </li>
+            <li>
+              <div className = "navCollection">
+              <FontAwesomeIcon icon = {faCartShopping} className = "iconStyling" />
+              <p className = "iconPara">Cart</p> 
+              </div> 
+            </li>
           </ul>
           <ul className="itemCat">
             <li>
-              <div className="headerCard">
-                <img
-                  src="https://rukminim1.flixcart.com/flap/128/128/image/69c6589653afdb9a.png?q=100"
-                  className="headerImg"
-                  alt="..."
-                />
-                <div className="headerBody">
-                  <h5 className="cardTit">Electronics</h5>
-                  <Link className="link" to="/ElectronicsComp">
-                    <button className="headerButton">Visit</button>
-                  </Link>
-                </div>
-              </div>
+            <h5 className="cardTit">Grocery</h5>
             </li>
             <li>
-              <div className="headerCard">
-                <img
-                  src="https://rukminim1.flixcart.com/flap/128/128/image/29327f40e9c4d26b.png?q=100"
-                  className="headerImg"
-                  alt="..."
-                />
-                <div className="headerBody">
-                  <h5 className="cardTit">Grocery</h5>
-                  <Link className="link" to="/Groceries">
-                    <button className="headerButton">Visit</button>
-                  </Link>
-                </div>
-              </div>
+              <h5 className="cardTit">Clothing</h5> 
             </li>
             <li>
-              <div className="headerCard">
-                <img
-                  src="https://rukminim1.flixcart.com/flap/128/128/image/c12afc017e6f24cb.png?q=100"
-                  className="headerImg"
-                  alt="..."
-                />
-                <div className="headerBody">
-                  <h5 className="cardTit">Clothing</h5>
-                  <Link className="link" to="/Clothing">
-                    <button className="headerButton">Visit</button>
-                  </Link>
-                </div>
-              </div>
+            <h5 className="cardTit">Mobiles</h5> 
             </li>
             <li>
-              <div className="headerCard">
-                <img
-                  src="https://rukminim1.flixcart.com/flap/128/128/image/ab7e2b022a4587dd.jpg?q=100"
-                  className="headerImg"
-                  alt="..."
-                />
-                <div className="headerBody">
-                  <h5 className="cardTit">Home Appliances</h5>
-                  <Link className="link" to="/HomeAppliances">
-                    <button className="headerButton">Visit</button>
-                  </Link>
-                </div>
-              </div>
+            <h5 className="cardTit">Laptops</h5>   
+            </li>
+            <li>
+            <h5 className="cardTit">Projectors</h5>   
+            </li>
+            <li>
+            <h5 className="cardTit">Printers</h5>   
+            </li>
+            <li>
+            <h5 className="cardTit">Earphones</h5>   
+            </li>
+            <li>
+            <h5 className="cardTit">Monitors</h5>   
             </li>
           </ul>
         </div>
