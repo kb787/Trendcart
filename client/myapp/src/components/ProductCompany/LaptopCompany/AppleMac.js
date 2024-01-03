@@ -1,10 +1,12 @@
 import Header from "../../Home/Header";
 import {useCart} from "../../Cart/CartCreation" 
 import { useNavigate } from "react-router-dom";
+import { useState } from "react";
 
 const AppleMac = () => {
   const {addToCart} = useCart() ;
   const navigate = useNavigate() ;
+  const [filteredData,setFilteredData] = useState([]) ;
   const handleAddCart = (item) => {
     addToCart(item) ;
     navigate("/CartDisplay") ;
@@ -43,13 +45,27 @@ const AppleMac = () => {
           }  
     ]
 
+   
+    const handleSearchInputChange = (searchInput) => {
+      if (searchInput === '' || searchInput === null) {
+        setFilteredData(data);
+      } else {
+        const filtered = data.filter(
+          (item) =>
+            searchInput.toLowerCase().includes('apple') &&
+            searchInput.toLowerCase().includes(item.productDescription) 
+        );
+        setFilteredData(filtered);
+      }
+    };
+
     return (
       <div className = "LenovoPage">
-      <Header/>
+      <Header onSearchInputChange={handleSearchInputChange}/>
       <div className = "Lenovo"> 
         <ul className = "contentCardsProduct">  
         { 
-         (data?.map((item) =>  
+         (filteredData?.map((item) =>  
              <div  key = {item._id}>     
              <div className = "contentCardProduct">   
                       <li>

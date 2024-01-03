@@ -6,7 +6,7 @@ import {} from "@fortawesome/fontawesome-svg-core" ;
 import { useState } from "react";
 
 
-const Header = ({onSearchInputChange}) => {
+const HeaderNav = ({onSearchInputChange}) => {
   const [searchInput,setSearchInput] = useState("") ; 
   
   const handleSearch = () => {
@@ -42,7 +42,6 @@ const Header = ({onSearchInputChange}) => {
                   className="searchForm"
                   id="exampleFormControlInput1"
                   placeholder="Enter Brand name,product name"
-                  onClick={handleSearch}
                 />
               </div>
             </li>
@@ -104,4 +103,4 @@ const Header = ({onSearchInputChange}) => {
   );
 };
 
-export default Header;
+export default HeaderNav;

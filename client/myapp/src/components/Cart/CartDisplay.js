@@ -1,11 +1,14 @@
 import React from 'react';
 import { useCart } from './CartCreation';
+import Header from '../Home/Header';
 
 const CartDisplay = () => {
   const { cart } = useCart();
   return (
-    <div>
-      <h2>Cart Items</h2>
+   <div className = "CartHomepage">  
+    <Header/>
+    <div className = "CartContent">
+      <h2 className = "CartHeading">Cart Items</h2>
       {cart.length === 0 ? (
         <p>Your cart is empty.</p>
       ) : (
@@ -35,6 +38,7 @@ const CartDisplay = () => {
         </ul>
       )}
     </div>
+    </div>  
   );
 };
 

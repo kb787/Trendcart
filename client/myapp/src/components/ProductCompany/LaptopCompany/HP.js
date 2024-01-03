@@ -1,10 +1,12 @@
 import Header from "../../Home/Header";
 import {useCart} from "../../Cart/CartCreation"
 import { useNavigate } from "react-router-dom";
+import { useState } from "react";
 
 const HP = () => {
   const {addToCart} = useCart() ;
   const navigate = useNavigate() ;
+  const [filteredData,setFilteredData] = useState([]) ;
   const handleAddCart = (item) => {
     addToCart(item) ;
     navigate("/CartDisplay") ;
@@ -42,14 +44,26 @@ const HP = () => {
             productDescription: "HP 15s Intel Core i5 12th Gen - (8 GB/512 GB SSD/Windows 11 Home) 15s-fq5111TU Thin and Light Laptop (15.6 inch, Natural Silver, 1.69 Kg, With MS Office) 4.21,830 Ratings & 152 Reviews Extra ₹3091 off ₹56,899"
           }  
     ]
-
+    
+    const handleSearchInputChange = (searchInput) => {
+      if (searchInput === '' || searchInput === null) {
+        setFilteredData(data);
+      } else {
+        const filtered = data.filter(
+          (item) =>
+            searchInput.toLowerCase().includes('hp') &&
+            searchInput.toLowerCase().includes(item.productDescription) 
+        );
+        setFilteredData(filtered);
+      }
+    };
     return (
       <div className = "LenovoPage">
-      <Header/>
+      <Header onSearchInputChange={handleSearchInputChange}/>
       <div className = "Lenovo"> 
         <ul className = "contentCardsProduct">  
         { 
-         (data?.map((item) =>  
+         (filteredData?.map((item) =>  
              <div  key = {item._id}>     
              <div className = "contentCardProduct">   
                       <li>

@@ -1,8 +1,12 @@
 
 import { Link } from "react-router-dom";
+
+
+import { useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 import ElectronicsCollection from "../Products/SampleData/ElectronicsCollection";
+import LaptopCollection from "../Products/SampleData/LaptopCollection" ;
 import MobileCollection from "../Products/SampleData/MobileCollection";
-import LaptopCollection from "../Products/SampleData/LaptopCollection";
 
 const Content = () => {
   return (
@@ -13,7 +17,7 @@ const Content = () => {
         <div className="cHeading">Best of Mobiles</div>
         <MobileCollection/>
         <div className="cHeading">Best of Laptops</div>
-        <LaptopCollection/> 
+        <LaptopCollection/>
       </div>
     </main>
   );

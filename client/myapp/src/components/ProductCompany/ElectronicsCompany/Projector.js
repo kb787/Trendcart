@@ -1,10 +1,12 @@
 import Header from "../../Home/Header";
 import {useCart} from "../../Cart/CartCreation"
 import { useNavigate } from "react-router-dom";
+import { useState } from "react";
 
 const Projector = () => {
   const navigation = useNavigate() ;
   const {addToCart} = useCart() ;
+  const [filteredData,setFilteredData] = useState([]) ;
   const handleAddCart = (item) => {
     addToCart(item) ;
     navigation("/CartDisplay") ;
@@ -37,16 +39,29 @@ const Projector = () => {
             productImageUrl: "https://rukminim1.flixcart.com/image/416/416/krxtrww0/projector/q/y/7/mp-1-smart-wifi-full-hd-projector-150-inch-display-mpp-play-original-imag5hhykqzz9jrd.jpeg?q=70",
             productDescription: "PLAY MP1 Newest WiFi Native Full HD Led Advance Projector 400-inch Display for Multipurpose (4500 lm / Wireless / Remote Controller) Portable Projector (White/ Black) 4269 Ratings & 64 Reviews Special price ₹13,671"
           }
-
     ]
+
+    
+    const handleSearchInputChange = (searchInput) => {
+      if (searchInput === '' || searchInput === null) {
+        setFilteredData(data);
+      } else {
+        const filtered = data.filter(
+          (item) =>
+            searchInput.toLowerCase().includes('projector') &&
+            searchInput.toLowerCase().includes(item.productDescription) 
+        );
+        setFilteredData(filtered);
+      }
+    };
 
     return (
       <div className = "LenovoPage">
-      <Header/>
+      <Header onSearchInputChange={handleSearchInputChange}/>
       <div className = "Lenovo"> 
         <ul className = "contentCardsProduct">  
         { 
-         (data?.map((item) =>  
+         (filteredData?.map((item) =>  
              <div  key = {item._id}>     
              <div className = "contentCardProductMobile">   
                       <li>

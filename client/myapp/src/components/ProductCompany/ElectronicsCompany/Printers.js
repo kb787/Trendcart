@@ -1,13 +1,16 @@
 import Header from "../../Home/Header";
 import {useCart} from "../../Cart/CartCreation" 
 import { useNavigate } from "react-router-dom";
+import { useState } from "react";
 const Printers = () => {
   const {addToCart} = useCart() ;
+  const [filteredData,setFilteredData] = useState([]) ;
   const navigation = useNavigate() ;
   const handleAddCart = (item) => {
     addToCart(item) ;
     navigation("/CartDisplay") ;
  }
+
     const data = [
         {
             _id: 60 ,
@@ -29,14 +32,26 @@ const Printers = () => {
             productDescription: "Canon G3012 Multi-function WiFi Color Inkjet Printer (Color Page Cost: 0.21 Rs. | Black Page Cost: 0.09 Rs. | Borderless Printing) (Black, Ink Tank, 2 Ink Bottles Included) 4.49,145 Ratings & 1,194 Reviews Special price ₹14,499"
           }
     ]
-
+    
+    const handleSearchInputChange = (searchInput) => {
+      if (searchInput === '' || searchInput === null) {
+        setFilteredData(data);
+      } else {
+        const filtered = data.filter(
+          (item) =>
+            searchInput.toLowerCase().includes('printer') &&
+            searchInput.toLowerCase().includes(item.productDescription) 
+        );
+        setFilteredData(filtered);
+      }
+    }; 
     return (
       <div className = "LenovoPage">
-      <Header/>
+      <Header onSearchInputChange={handleSearchInputChange}/>
       <div className = "Lenovo"> 
         <ul className = "contentCardsProduct">  
         { 
-         (data?.map((item) =>  
+         (filteredData?.map((item) =>  
              <div  key = {item._id}>     
              <div className = "contentCardProductMobile">   
                       <li>

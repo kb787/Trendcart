@@ -69,7 +69,7 @@
 
 .Content {
     background-color: whitesmoke;
-    margin-top:-1.20vw ;
+    margin-top:-1.30vw ;
     padding-bottom:2vw ;
     padding-right:1vw ;
 }
@@ -79,7 +79,12 @@
     margin-top:-1.20vw ;
     padding-bottom:2vw ;
     padding-right:1vw ;
-    width:100%;   
+}
+
+.CartHeading{
+    font-size:2vw ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    justify-content:center ;
 }
 
 .contentCard{
@@ -219,5 +224,29 @@
 }
 
 .Homepage {
+    width:100% ;
+}
+
+.CartPage{
+    background-color: whitesmoke;
+    margin-top:-0.50vw ;
+    padding-bottom:2vw ;
+    padding-right:1vw ;
+    width:100%;
+}
+
+.CartContent 
+{
+    background-color: whitesmoke;
+    margin-top:-2vw ;
+    padding-bottom:2vw ;
+    padding-right:1vw ;
+}
+
+.CartHomepage {
+    width:100%;
+}
+
+.LenovoPage {
     width:100% ;
 }

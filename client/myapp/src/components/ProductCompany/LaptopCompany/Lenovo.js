@@ -1,10 +1,12 @@
 import Header from "../../Home/Header";
 import {useCart} from "../../Cart/CartCreation" ;
 import { useNavigate } from "react-router-dom";
+import { useState } from "react";
 
 const Lenovo = () => {
   const {addToCart} = useCart() ;
   const navigate = useNavigate() ;
+  const [filteredData,setFilteredData] = useState([]) ;
   const handleAddCart = (item) => {
     addToCart(item) ;
     navigate("/CartDisplay") ;
@@ -42,14 +44,27 @@ const Lenovo = () => {
             productDescription: "Lenovo IdeaPad Gaming 3 Ryzen 7 Octa Core AMD R7-5800H - (8 GB/512 GB SSD/Windows 11 Home/4 GB Graphics/NVIDIA GeForce RTX 3050) IdeaPad Gaming3 15ACH6D2 Gaming Laptop (15.6 inch, Shadow Black, 2.25 Kg, With MS Office) 4.5336 Ratings & 43 Reviews Extra ₹7000 off ₹67,990"
           }  
     ]
-
+    
+    
+    const handleSearchInputChange = (searchInput) => {
+      if (searchInput === '' || searchInput === null) {
+        setFilteredData(data);
+      } else {
+        const filtered = data.filter(
+          (item) =>
+            searchInput.toLowerCase().includes('lenovo') &&
+            searchInput.toLowerCase().includes(item.productDescription) 
+        );
+        setFilteredData(filtered);
+      }
+    };
     return (
       <div className = "LenovoPage">
-      <Header/>
+      <Header onSearchInputChange={handleSearchInputChange}/>
       <div className = "Lenovo"> 
         <ul className = "contentCardsProduct">  
         { 
-         (data?.map((item) =>  
+         (filteredData?.map((item) =>  
              <div  key = {item._id}>     
              <div className = "contentCardProduct">   
                       <li>

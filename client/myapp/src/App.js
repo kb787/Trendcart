@@ -5,7 +5,6 @@ import Homepage from './components/Home/Homepage';
 import Register from './components/Authentication/Register';
 import Profile from './Profile' ;
 import {BrowserRouter,Route,Routes} from 'react-router-dom' ;
-import LaptopMainContainer from './components/Products/Laptops/LaptopMainContainer';
 import Lenovo from './components/ProductCompany/LaptopCompany/Lenovo';
 import Asus from './components/ProductCompany/LaptopCompany/Asus';
 import AppleMac from './components/ProductCompany/LaptopCompany/AppleMac';
@@ -33,7 +32,6 @@ function App() {
             <Route  path = "/Lenovo" element = {<Lenovo/>}/>
             <Route  path = "/Asus" element = {<Asus/>}/>
             <Route  path = "/AppleMac" element = {<AppleMac/>}/>
-            <Route  path = "/LaptopItemsPage" element = {<LaptopMainContainer/>}/>
             <Route  path = "/HP" element = {<HP/>}/>
             <Route  path = "/Realme" element = {<Realme/>}/>
             <Route  path = "/Poco" element = {<Poco/>}/>
