@@ -252,3 +252,60 @@
 .LenovoPage {
     width:100% ;
 }
+
+.mainContainer {
+    margin-top:5vw ;
+    justify-content: center;
+    text-align: center;
+    background-color: whitesmoke;
+    margin-left:20vw ;
+    margin-right:20vw ;
+    border-radius:0.60rem ;
+    padding-bottom:2vw ;
+    border: solid;
+    border-color: darkgray;
+}
+
+.formHeading{
+    padding-top:2vw ;
+    text-align: left;
+    padding-left:7.5vw ;
+    justify-content: left;
+    font-size:2vw ;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.formSubHeading{
+    text-align: left;
+    padding-left:7.5vw ;
+    justify-content: left;
+    font-size:1.10vw ;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:1.65vw ;
+}
+
+.formInputs{
+    width:75% ;
+    height:3vw ;
+    border-radius:0.75rem ;
+    margin-top:1vw ;
+
+}
+
+.loginButton{
+    background-color: blue;
+    color:white ;
+    width:75%;
+    height:4vw ;
+    font-size:1.45vw ;
+    padding:1vw ;
+    border-radius:0.75rem ;
+}
+
+.pageLinking{
+    font-size:1.30vw ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:black ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+}

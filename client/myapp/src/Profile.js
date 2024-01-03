@@ -52,7 +52,7 @@ const Profile = () =>
     }    
 
     return (
-    <div className = "Profile">
+    <div className = "mainContainer">
     <form classname="registerForm" onSubmit={handlePostProfile}>
     <div>
     <h3 className = "registerHeading">Enter your profile details</h3>    

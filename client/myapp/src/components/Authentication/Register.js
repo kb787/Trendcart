@@ -29,7 +29,7 @@ const Register = () =>
           console.log(registerResponse) ;
           if(registerResponse.data && registerResponse.data.success)
           {
-              nav("/Profile") ;
+              nav("/Homepage") ;
               message.success(" You have been successfully registered ") ;
           }
         }
@@ -50,7 +50,8 @@ const Register = () =>
       <input className = "formInputs" type = 'email' value = {userEmail} placeholder = "Enter your email address" onChange = {(e) => setUserEmail(e.target.value)} />
       <br/>
       <input className = "formInputs" type = 'password' value = {userPassword} placeholder = "Enter your password" onChange = {(e) => setUserPassword(e.target.value)} />
-      <br/>         
+      <br/> 
+      <br/>        
       <button className = "loginButton" onClick={handlePostRegister}>Register</button>
       <p><Link to = "/Login" className = "pageLinking">Already having an account ? SignIn Here</Link></p>   
 </div> 

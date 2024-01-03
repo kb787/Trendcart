@@ -1,7 +1,9 @@
 const profileModel = require('./profileModels') ;
 const registerModel = require('./registerModels') ;
+const bcryptjs = require('bcryptjs') ;
 const express = require('express') ;
 const productDetailModel = require('./productDetailModel') ;
+const jwt = require('jsonwebtoken');
 
 const handlePostProfile = async(req,res)  => 
 {
@@ -26,36 +28,7 @@ const handlePostProfile = async(req,res)  =>
 }
 
 const handlePostRegister = async(req,res) => {
-    {/*
-     try 
-     {
-        const {userName,userEmail,userPassword} = req.body ;
-        console.log(req.body) ;
-            let prevUser = await registerModel.findOne(
-                {
-                   userEmail:req.body.userEmail 
-                }   
-            )
-            if(prevUser)
-            {
-                 return res.status(200).send({message:"Already a user exists", success:false}) ;
-            }
-            console.log(prevUser) ;
-            let newUser = await new registerModel(
-                {
-                    userName,userEmail,userPassword
-                }
-            )
-            newUser.save() ;
-            console.log(newUser) ;
-            return res.status(201).send({message:"Saved the user",success:true,newUser}) ;
-     }
-     catch(error)
-     {
-        console.log(error) ;
-        return res.status(500).send({message:"Unable to register",success:false}) ;
-     }
-    */}
+    
     const {userName,userEmail,userPassword} = req.body ;
     if((!userName) || (!userEmail) || (!userPassword)) {
           return res.status(400).send({message:'Entering all field is mandatory',success:false}) ;
@@ -88,32 +61,40 @@ const handlePostRegister = async(req,res) => {
 
 const handlePostLogin = async(req,res) => 
 {
-    try 
-    {
-        const {userEmail,userPassword} = req.body ;
-        console.log(req.body) ;
-        let prevReq = await registerModel.findOne(
-            {
-                userEmail:req.body.userEmail 
-            }
-        )
-        if(!prevReq)
-        { 
-           return res.status(202).send({message:"Invalid email address",success:false}) ; 
-        }
-        else if(prevReq.userPassword !== req.body.userPassword)
-        {
-            return res.status(202).send({message:"Invalid credentials", success:false}) ;
-        }
-        else 
-        {
-            return res.status(201).send({message:"Login Success",success:true}) ;
-        }
+    const {userEmail,userPassword} = req.body ;
+    console.log(req.body) ;
+    if((!userEmail) || (!userPassword)) {
+         {
+            return res.status(400).send({message:'Entering all fields is mandatory',success:false}) ; 
+         }
     }
-    catch(error)
-    {
-       console.log(error) ;
-       return res.status(500).send({message:"Unable to login",success:false}) ;   
+    try {
+          let comparisonOutput ;
+          let loginResponse = await registerModel.findOne({userEmail:req.body.userEmail}) ;
+          if(!loginResponse) {
+             return res.status(404).send({message:'Invalid email',success:false}) ;
+          }
+          else if(!loginResponse.userPassword){
+             return res.status(405).send({message:'Invalid user',success:false}) ;  
+          }
+          const userDetails = {
+               userEmail: loginResponse.userEmail
+          }
+          console.log(userDetails) ;
+          comparisonOutput = await bcryptjs.compare(userPassword,loginResponse.userPassword) ;
+          if(!comparisonOutput){
+              return res.status(406).send({message:'Invalid credentials',success:false}) 
+          }
+          else {
+            const token = jwt.sign({id:comparisonOutput._id},process.env.secret_key,{
+                expiresIn:"1d"
+            })
+              return res.status(201).send({message:'Login successfull',success:true,token}) ;
+          }
+    }
+    catch(error) {
+         console.log(error) ;
+         return res.status(500).send({message:'Unable to process the request',success:false}) ;
     }
 }
 

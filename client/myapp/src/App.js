@@ -28,7 +28,7 @@ function App() {
         <Routes>
             <Route path="/Homepage" element = {<Homepage/>}/>
             <Route  path = "/Login" element = {<Login/>}/>
-            <Route  path = "/Register" element = {<Register/>}/>
+            <Route  path = "/" element = {<Register/>}/>
             <Route  path = "/Lenovo" element = {<Lenovo/>}/>
             <Route  path = "/Asus" element = {<Asus/>}/>
             <Route  path = "/AppleMac" element = {<AppleMac/>}/>

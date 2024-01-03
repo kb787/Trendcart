@@ -26,7 +26,7 @@ const Login = () =>
           console.log(loginResponse) ;
           if(loginResponse.data && loginResponse.data.success)
           {
-              nav("/Profile") ;
+              nav("/Homepage") ;
               message.success(" You have been successfully logged in ") ;
           }
         }
@@ -44,9 +44,10 @@ const Login = () =>
       <input className = "formInputs" type = 'email' value = {userEmail} placeholder = "Enter your email address" onChange = {(e) => setUserEmail(e.target.value)} />
       <br/>
       <input className = "formInputs" type = 'password' value = {userPassword} placeholder = "Enter your password" onChange = {(e) => setUserPassword(e.target.value)} />
-      <br/>         
+      <br/>  
+      <br/>       
       <button className = "loginButton" onClick={handlePostLogin}>Login</button>
-      <p><Link to = "/Register" className = "pageLinking">Not having an account ? SignUp Here</Link></p>   
+      <p><Link to = "/" className = "pageLinking">Not having an account ? SignUp Here</Link></p>   
 </div> 
     )
      
