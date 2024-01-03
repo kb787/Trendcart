@@ -25,8 +25,8 @@ const handlePostProfile = async(req,res)  =>
     }
 }
 
-const handlePostRegister = async(req,res) => 
-{
+const handlePostRegister = async(req,res) => {
+    {/*
      try 
      {
         const {userName,userEmail,userPassword} = req.body ;
@@ -55,6 +55,35 @@ const handlePostRegister = async(req,res) =>
         console.log(error) ;
         return res.status(500).send({message:"Unable to register",success:false}) ;
      }
+    */}
+    const {userName,userEmail,userPassword} = req.body ;
+    if((!userName) || (!userEmail) || (!userPassword)) {
+          return res.status(400).send({message:'Entering all field is mandatory',success:false}) ;
+    }
+    try {
+         let regResponse = await registerModel.findOne({userEmail:req.body.userEmail}) ;
+         if(regResponse) {
+              return res.status(409).send({message:'User already exists',success:false}) ;
+         }
+         else {
+              const salt = await bcryptjs.genSalt(10) ; 
+              const password = req.body.userPassword ;
+              const hashedPassword =  await bcryptjs.hash(password,salt) ;
+              const newResponse = await new registerModel({userName,userEmail,userPassword:hashedPassword}) ;
+              const savedUser = await newResponse.save({userName,userEmail,userPassword:hashedPassword}) ;  
+              const userDetails = {
+                  userName:savedUser.userName,
+                  userEmail:savedUser.userEmail
+              }
+              console.log(userDetails) ; 
+              return res.status(201).send({message:'Successfully done the registration',success:true,userDetails}) ;         
+         }
+    }
+    catch(error){
+            console.log(error) ;
+            return res.status(500).send({message:'Could not process the request',success:false}) ;
+    }
+ 
 } 
 
 const handlePostLogin = async(req,res) => 

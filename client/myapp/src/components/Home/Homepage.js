@@ -8,16 +8,14 @@ const Homepage = () =>
 {  
    const [filteredData,setFilteredData] = useState([]) ;
    const {addToCart} = useCart() ;
+   const dataVar = data ;
+   console.log(dataVar) ;
    const navigation = useNavigate();
    const handleSearchInputChange = (searchInput) => {
-      if(searchInput === '' ||  searchInput === null)
-      {
-         setFilteredData(data) ;
-      }
-      const filtered = data.filter(
+      const filtered = dataVar.filter(
         (item) =>
-          ((item.productCategory.toLowerCase().includes(searchInput.toLowerCase())) &&
-          (item.productCompany.toLowerCase().includes(searchInput.toLowerCase()))) || 
+          (item.productCategory.toLowerCase().includes(searchInput.toLowerCase())) ||
+          (item.productCompany.toLowerCase().includes(searchInput.toLowerCase())) || 
           (item.productDescription.toLowerCase().includes(searchInput.toLowerCase()))
       );
       setFilteredData(filtered); 
@@ -28,45 +26,48 @@ const Homepage = () =>
    }
   
    return ( 
-    <div className = "Homepage">
-       <Header onSearchInputChange={handleSearchInputChange} />
-       <Content/>
-       <ul className = "contentCardsProduct">  
-        { 
-         (filteredData?.map((item) =>  
-             <div  key = {item._id}>     
-             <div className = "contentCardProduct">   
-                      <li>
-                      <img
-                       src = {item.productImageUrl} 
-                      className="contentImgProduct"
-                      alt="..."
-                      /> 
-                    <div className="contentBody">
-                       <h5 className="contentTit">Category :- {item.productCategory}</h5>
-                    </div> 
-                    <div className="contentBody">
-                       <h5 className="contentTit">Company :- {item.productCompany}</h5>
-                    </div>
-                    <div className="contentBody">
-                       <h5 className="contentTitProduct">{item.productDescription}</h5>
-                    </div>
-                    <div>
-                    {/*  <Link to={item.buttonNavigation}> */}
-                           <button className="contentButtonProduct" onClick = {() => handleAddCart(item)}>Add to Cart</button>
-                    {/*  </Link> */}
-                    </div>
-                      </li>        
-             </div>
-         </div>    
-             )
+      <div className = "Homepage">
+         <Header onSearchInputChange={handleSearchInputChange} />
+         <Content/>
+         {filteredData.length > 0 ? (
+           <ul className = "contentCardsProduct">  
+            { 
+             filteredData.map((item) =>  
+                 <div  key = {item._id}>     
+                 <div className = "contentCardProduct">   
+                          <li>
+                          <img
+                           src = {item.productImageUrl} 
+                          className="contentImgProduct"
+                          alt="..."
+                          /> 
+                        <div className="contentBody">
+                           <h5 className="contentTit">Category :- {item.productCategory}</h5>
+                        </div> 
+                        <div className="contentBody">
+                           <h5 className="contentTit">Company :- {item.productCompany}</h5>
+                        </div>
+                        <div className="contentBody">
+                           <h5 className="contentTitProduct">{item.productDescription}</h5>
+                        </div>
+                        <div>
+                        {/*  <Link to={item.buttonNavigation}> */}
+                               <button className="contentButtonProduct" onClick = {() => handleAddCart(item)}>Add to Cart</button>
+                        {/*  </Link> */}
+                        </div>
+                          </li>        
+                 </div>
+             </div>    
+                 )
+            }  
+          </ul>
+         ) : (
+            ""
+         )}
+      </div>
+     ) 
+  }
+   
     
-         )  
-        } 
-       
-      </ul>
-    </div>
-   ) 
-}
 
 export default Homepage ;

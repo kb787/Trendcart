@@ -12,6 +12,11 @@ const Header = ({onSearchInputChange}) => {
   const handleSearch = () => {
     onSearchInputChange(searchInput);
   };
+
+  const handleSearchInputChange = (e) => {
+     setSearchInput(e.target.value) ;
+     handleSearch() ;
+  }
   return (
     <header className="header">
       <div>
@@ -42,6 +47,8 @@ const Header = ({onSearchInputChange}) => {
                   className="searchForm"
                   id="exampleFormControlInput1"
                   placeholder="Enter Brand name,product name"
+                  value = {searchInput}
+                  onChange={handleSearchInputChange}
                   onClick={handleSearch}
                 />
               </div>
