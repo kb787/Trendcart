@@ -6,7 +6,7 @@
     display:flex ;
     gap:2vw ;
     list-style-type:none ;
-    justify-content:left ;
+    justify-content:center ;
     align-items:center ;
     font-family:Verdana, Geneva, Tahoma, sans-serif ;
     padding-top:1.35vw ;
@@ -254,7 +254,7 @@
 }
 
 .mainContainer {
-    margin-top:5vw ;
+    margin-top:5vw;
     justify-content: center;
     text-align: center;
     background-color: whitesmoke;
@@ -309,3 +309,30 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-decoration: none;
 }
+
+.videoCollection {
+    display:flex ;
+    justify-content: center;
+    list-style-type: none;
+    gap:2vw ;
+}
+
+.showsHeading {
+    font-size:2vw ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    justify-content: center;
+    text-align: center;
+}
+
+.Shows {
+    background-color: whitesmoke;
+}
+
+.videoCollectionItems{
+    border-radius: 0.65rem;
+}
+
+.videoCard {
+    border-radius: 0.75rem;
+}
+

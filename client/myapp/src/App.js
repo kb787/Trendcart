@@ -3,7 +3,6 @@ import './App.css';
 import Login from './components/Authentication/Login' ;
 import Homepage from './components/Home/Homepage';
 import Register from './components/Authentication/Register';
-import Profile from './Profile' ;
 import {BrowserRouter,Route,Routes} from 'react-router-dom' ;
 import Lenovo from './components/ProductCompany/LaptopCompany/Lenovo';
 import Asus from './components/ProductCompany/LaptopCompany/Asus';
@@ -19,6 +18,9 @@ import Earphone from './components/ProductCompany/ElectronicsCompany/Earphone';
 import ApplePhone from './components/ProductCompany/MobileCompany/ApplePhone';
 import CartDisplay from './components/Cart/CartDisplay';
 import { CartProvider } from './components/Cart/CartCreation';
+import Shows from './components/Videos/Shows';
+import ProtectedRoute from './components/Home/ProtectedRoutes';
+
 
 function App() {
   return (
@@ -26,7 +28,7 @@ function App() {
     <CartProvider>  
     <BrowserRouter>
         <Routes>
-            <Route path="/Homepage" element = {<Homepage/>}/>
+          {/*    <Route path="/Homepage" element = {<Homepage/>}/> */}
             <Route  path = "/Login" element = {<Login/>}/>
             <Route  path = "/" element = {<Register/>}/>
             <Route  path = "/Lenovo" element = {<Lenovo/>}/>
@@ -42,6 +44,8 @@ function App() {
             <Route  path = "/Earphone" element = {<Earphone/>}/>
             <Route  path = "/ApplePhone" element = {<ApplePhone/>}/>
             <Route  path = "/CartDisplay" element = {<CartDisplay/>}/>
+            <Route  path = "/Shows" element = {<Shows/>}/>
+            <Route path = "/Homepage" element = {<Homepage/>} />
         </Routes>
     </BrowserRouter>
     </CartProvider>

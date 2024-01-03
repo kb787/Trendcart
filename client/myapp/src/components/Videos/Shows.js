@@ -1,9 +1,11 @@
 import Video from './Video';
+import Header from '../Home/Header';
 
 const Shows = (src) => 
 { 
   return (  
   <div className = "Shows">
+    <Header/>  
     <h1 className = "showsHeading">Explore funny shows here...</h1>
     <ul className = "videoCollection"> 
     <li className = "videoCollectionItems">

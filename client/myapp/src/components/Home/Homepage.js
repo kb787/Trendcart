@@ -1,4 +1,4 @@
-import Header from "./HeaderNav";
+import Header from "./Header";
 import Content from "./Content";
 import {data} from './CardDetails'
 import { useState } from "react";

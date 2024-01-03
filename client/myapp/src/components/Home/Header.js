@@ -28,12 +28,14 @@ const Header = ({onSearchInputChange}) => {
                 Home
               </Link>
             </li>
+         {/*   
             <li>
               <div className = "navCollection">
               <FontAwesomeIcon icon = {faLocationDot} className = "iconStyling" />
               <p className = "iconPara">Location</p> 
               </div> 
             </li>
+        */}  
             <li>
               <div className="headerForm">
                 <label
@@ -53,18 +55,27 @@ const Header = ({onSearchInputChange}) => {
                 />
               </div>
             </li>
+          {/*  
             <li>
               <div className = "navCollection">
               <FontAwesomeIcon icon = {faUser} className = "iconStyling" />
-              <p className = "iconPara">My Account</p> 
+              <Link className="link" to = "/Profile">
+              <p className = "iconPara"> 
+                My Profile
+              </p>  
+                </Link>
               </div> 
             </li>
+      */}  
+
+        {/*    
             <li>
               <div className = "navCollection">
               <FontAwesomeIcon icon = {faBagShopping} className = "iconStyling" />
               <p className = "iconPara">Orders and Returns</p> 
               </div> 
             </li>
+      */}  
             <li>
             <Link className="link" to="/Shows">
                 Watch Shows

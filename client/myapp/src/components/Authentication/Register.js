@@ -55,6 +55,7 @@ const Register = () =>
       <button className = "loginButton" onClick={handlePostRegister}>Register</button>
       <p><Link to = "/Login" className = "pageLinking">Already having an account ? SignIn Here</Link></p>   
 </div> 
+
     )
 }
 

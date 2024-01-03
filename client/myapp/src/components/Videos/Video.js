@@ -1,9 +1,10 @@
 const Video = ({ src }) => (
     <iframe
       allowFullScreen
-      height="300"
+      height="302"
       src={src}
-      width="350"
+      width="352"
+      className="videoCard"
     />
   );
   
